@@ -1,0 +1,1 @@
+# tridish-app
