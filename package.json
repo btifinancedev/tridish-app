@@ -45,11 +45,11 @@
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
-    "next": "^13.0.0",
+    "next": "15.1.0",
     "next-themes": "^0.4.4",
-    "react": "^18.0.0",
+    "react": "^19",
     "react-day-picker": "8.10.1",
-    "react-dom": "^18.0.0",
+    "react-dom": "^19",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
@@ -67,13 +67,5 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
-  },
-  "resolutions": {
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0"
-  },
-  "overrides": {
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0"
-}
+  }
 }
