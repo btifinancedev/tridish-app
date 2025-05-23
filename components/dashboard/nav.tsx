@@ -78,9 +78,7 @@ export function DashboardNav() {
       {/* Mobile Navigation */}
       <div className="md:hidden border-b bg-background">
         <div className="flex h-14 items-center px-4 justify-between">
-          <Link href="/dashboard" className="flex items-center font-semibold">
-            <span className="text-primary mr-2">●</span> My App
-          </Link>
+         
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="icon" onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               {mobileNavOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
