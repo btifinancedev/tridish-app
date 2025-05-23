@@ -10,10 +10,10 @@ import { Activity, DollarSign, Download, Users, BarChart3 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { BalanceCard } from "@/components/dashboard/balance-card"
 import { TransactionHistory } from "@/components/dashboard/transaction-history"
-
-const supabaseUrl = "https://xdidvicwfjeocscmngfb.supabase.co"
-const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkaWR2aWN3Zmplb2NzY21uZ2ZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI1ODA3MDIsImV4cCI6MjA1ODE1NjcwMn0.kI9dtfNZZ3Vdimga_xLYvLF2GnlBmkTGh5-IvdapAGw"
+const supabaseUrl = "https://rvnaiucmhbssnqaqwudc.supabase.co"
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2bmFpdWNtaGJzc25xYXF3dWRjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc5OTAwMjYsImV4cCI6MjA2MzU2NjAyNn0.PZTd5XZuibDiFqFlbFhJFPj0C4gxs14YszPZ95A9nag"
 const supabase = createClient(supabaseUrl, supabaseAnonKey)
+
 
 const sampleTransactions = [
   {
