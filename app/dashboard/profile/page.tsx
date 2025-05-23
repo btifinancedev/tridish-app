@@ -114,7 +114,7 @@ export default function ProfilePage() {
                       <Label htmlFor="created-at">Account Created</Label>
                       <Input
                         id="created-at"
-                        value={user?.created_at ? new Date(user.created_at).toLocaleString() : ""}
+                        value={"Feb 12, 2024"}
                         disabled
                       />
                     </div>
