@@ -76,7 +76,7 @@ export function DashboardNav() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="md:hidden border-b bg-background">
+      <div className="md:hidden border-b bg-background absolute">
         <div className="flex h-14 items-center px-4 justify-between">
          
           <div className="flex items-center gap-2">
