@@ -71,9 +71,9 @@ export function TransferModal({ balance, trigger }: TransferModalProps) {
 
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 2000))
-
+      prompt('Type in your OTP PIN to complete this transfer')
       // Simulate error
-      throw new Error("Unable to process your transfer at this time. Please try again later.")
+      throw new Error("INVALID OTP CODE. Please try again.")
 
       // If successful (this code won't run due to the error above)
       // setOpen(false)
