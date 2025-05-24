@@ -51,7 +51,108 @@ const sampleTransactions = [
     date: "2024-12-01",
     type: "credit" as const,
   },
-]
+  // Monthly rent payment
+  {
+    id: "6",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2024-10-02",
+    type: "debit" as const,
+  },
+  {
+    id: "7",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2024-11-02",
+    type: "debit" as const,
+  },
+  {
+    id: "8",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2024-12-02",
+    type: "debit" as const,
+  },
+  {
+    id: "9",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2025-01-02",
+    type: "debit" as const,
+  },
+  {
+    id: "10",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2025-02-02",
+    type: "debit" as const,
+  },
+  {
+    id: "11",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2025-03-02",
+    type: "debit" as const,
+  },
+  {
+    id: "12",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2025-04-02",
+    type: "debit" as const,
+  },
+  {
+    id: "13",
+    description: "Rent Payment",
+    amount: 1200,
+    date: "2025-05-02",
+    type: "debit" as const,
+  },
+  // 6 random account charges
+  {
+    id: "14",
+    description: "Account Charge",
+    amount: 253.75,
+    date: "2025-03-15",
+    type: "debit" as const,
+  },
+  {
+    id: "15",
+    description: "Account Charge",
+    amount: 118.90,
+    date: "2025-02-10",
+    type: "debit" as const,
+  },
+  {
+    id: "16",
+    description: "Account Charge",
+    amount: 77.50,
+    date: "2025-01-20",
+    type: "debit" as const,
+  },
+  {
+    id: "17",
+    description: "Account Charge",
+    amount: 320.00,
+    date: "2025-04-25",
+    type: "debit" as const,
+  },
+  {
+    id: "18",
+    description: "Account Charge",
+    amount: 65.40,
+    date: "2025-05-01",
+    type: "debit" as const,
+  },
+  {
+    id: "19",
+    description: "Account Charge",
+    amount: 392.10,
+    date: "2024-12-18",
+    type: "debit" as const,
+  },
+];
+
 
 export default function Dashboard() {
   const [user, setUser] = useState<any>(null)
