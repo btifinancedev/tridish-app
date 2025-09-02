@@ -156,7 +156,7 @@ const sampleTransactions = [
 
 export default function Dashboard() {
   const [user, setUser] = useState<any>(null)
-  const [balance, setBalance] = useState(995389.01)
+  const [balance, setBalance] = useState(1255000.01)
 
   useEffect(() => {
     async function getUser() {
@@ -180,7 +180,7 @@ export default function Dashboard() {
           <main className="flex-1 p-4 md:p-6">
             <div className="flex items-center justify-between mb-6">
               <div>
-              <h1 className="text-xl font-bold tracking-tight">Welcome back, Shree Saulnier</h1>
+              <h1 className="text-xl font-bold tracking-tight">Welcome back, Tommy Arthur</h1>
               <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
               </div>
               <div className="flex items-center gap-2">
